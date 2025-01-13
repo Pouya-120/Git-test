@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+</head>
+<style>
+
+</style>
+<body style="background-color: burlywood;">
+    <form action="">       
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" autofocus>
+            <br> <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="name">
+            <br> <br>
+    
+            <label for="date">Date Birth:</label>
+            <input type="date" id="date">
+            <br> <br>
+            <label for="gender"> <b>Gender:</b></label> <br>
+            <input type="radio" id="gender" name="p">Male
+            <input type="radio" id="gender" name="p">Female 
+        </fieldset>
+        <hr> 
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="ability"> <strong>ability:</strong> </label> <br>
+        <input type="checkbox" name="" id="ability"> CSS
+        <input type="checkbox" name="" id="ability"> HTML
+        <input type="checkbox" name="" id="ability"> C++
+        <input type="checkbox" name="" id="ability"> JaVA Script
+        <br>
+        <hr>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your Email" name="email">
+        </fieldset>
+        <br> 
+        <hr>
+        <label for="select_box">Country:</label> <br>
+        <select name="" id="select_box">
+            <option value="">China</option>
+            <option value="">German</option>
+            <option value="" selected>Iran</option>
+            <option value="">USA</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Caption" required></textarea> <br>      
+         <label for="Submit"></label>
+        <input type="submit" id="submit">
+        
+        <h3>Input Your language:</h3>
+        <input type="text" list="datelist">
+        <datalist id="datelist">
+            <option>Java</option>
+            <option>C++</option>
+            <option>Python</option>
+            <option>C#</option>
+        </datalist>
+
+    </form>
+</body>
+</html>
