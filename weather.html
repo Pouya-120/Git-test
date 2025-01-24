@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="download.png" type="image/x-icon">
+</head>
+
+<style>
+    body{
+        background-image:url(yunxi-shi-LPS_zk5MsqA-unsplash.jpg) ;
+        background-repeat: no-repeat;
+    }
+    .div1{
+        border: 2px solid rgb(33, 36, 32);
+        width: 500px;
+        height: 300px;
+        margin: auto;
+        margin-top: 200px;
+        /* background-color: rgb(224, 100, 100); */
+        border-radius: 30px;
+    }
+    .div2{
+        width: 200px;
+        height: 150px;
+        padding: 3px;
+        position: absolute;
+        /* left: 30%; */
+        margin-top: 15px;
+        border-radius: 5px;
+}
+.input{
+    border-radius: 15px;
+    height: 50px;
+    width: 300px;
+}
+.svg-search{
+    margin-left: 65%;
+    margin-top: 25px;
+}
+.weater-city{
+    margin-top: 100px;
+    font-size: x-large;
+    margin-left: 100px;
+}
+.c-city{
+    margin-top: 100px;
+    font-size: x-large;
+    margin-left: 100px;
+}
+.s-city{
+    margin-top: 100px;
+    font-size: x-large;
+    margin-left: 100px;
+}
+.div3{
+    border: double 2px rgb(39, 8, 8);
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    width: 200px;
+    height: 100px;
+    padding: 14px;  
+}
+
+.svg2{
+    height: 25px;
+    position: absolute;
+    left: 89px;
+    bottom: 7px;
+}
+</style>
+<body>
+    
+<div class="div1">
+<div class="div2">
+    <input class="input" type="text" onchange="" placeholder="Enter Name Of City">
+
+</div>
+<svg class="svg-search" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" style="height: 50px; width: 50px;">
+    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+  </svg> <br> <br>
+  <b class="weater-city">City</b> <br> <br>
+  <b class="c-city">Temp</b> <br> <br>
+  <b class="s-city">Speed-Wind</b> <br> <br>
+</div>
+
+<div class="div3">
+    <svg class="svg2" xmlns="http://www.w3.org/2000/svg" fill="none" width="20px" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+      </svg>
+      
+<p class="">List of City For Search:</p><mark class="div3-text">Tehran - Sanandaj - Marivan</mark><br>
+<br><span><a href="https://www.weather.gov/" target="_blank">More City:</span>
+</div>
+<script src="weather.js"></script>
+</body>
+</html>
